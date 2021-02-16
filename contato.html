@@ -16,14 +16,20 @@
         <a class="nav-link" href="/contato.html">Contato</a>
       </nav>
     </header>
-    <section>
+    <section class="contato-form">
       <form action="#"> 
-        <label for="name">Nome:</label>
-        <input type="text" name="nome" placeholder="Ex: Matheus Rodrigues">
-        <label for="name">Email:</label>
-        <input type="email" name="email" placeholder="Ex: exemplo@exemplo.com">
-        <label for="telefone">Telefone:</label>
-        <input type="tel" name="telefone" placeholder="Ex: (xx) xxxxx-xxxx">
+        <div class="form-nome">
+          <label for="name">Nome: </label>
+          <input type="text" name="nome" placeholder="Ex: Matheus Rodrigues">
+        </div>
+        <div class="form-email">
+          <label for="name">Email: </label>
+          <input type="email" name="email" placeholder="Ex: exemplo@exemplo.com">
+        </div>
+        <div class="form-telefone">
+          <label for="telefone">Telefone: </label>
+          <input type="tel" name="telefone" placeholder="Ex: (xx) xxxxx-xxxx">
+        </div>
         <textarea name="mensagem" cols="30" rows="10" placeholder="Sua mensagem aqui."></textarea>
         <button type="submit">Enviar</button>
       </form>
