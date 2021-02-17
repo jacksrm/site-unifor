@@ -57,6 +57,15 @@ section {
   padding: 30px 80px;
 }
 
+
+.painel {
+  padding: 0;
+}
+
+.painel img {
+  width: 100%;
+}
+
 .card {
   display: flex;
   box-shadow: 0 0 10px 5px #dddddd;
@@ -177,12 +186,24 @@ section {
 
 .contato-form form button:hover {
   filter: contrast(1.5);
-  /* background-color: #405E8E; */
 }
-.teste  {
-  background: url("/public/images/vestibular_digital_desktop.png") ;
-  background-repeat: no-repeat ;
-  background-size: cover;
-  height: 1000px;
 
+.tabela table,
+.tabela tr,
+.tabela th,
+.tabela td {
+  border: 1px solid #26497F;
+}
+
+.tabela table {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #3b4147;
+  text-align: center;
+}
+
+#table-h {
+  background-color: #26497F;
+  color: whitesmoke;
+  
 }
