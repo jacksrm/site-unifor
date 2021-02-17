@@ -179,3 +179,10 @@ section {
   filter: contrast(1.5);
   /* background-color: #405E8E; */
 }
+.teste  {
+  background: url("/public/images/vestibular_digital_desktop.png") ;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  height: 1000px;
+
+}
