@@ -207,3 +207,42 @@ section {
   color: whitesmoke;
   
 }
+
+footer {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #002969;
+}
+
+.dev-team {
+  color: whitesmoke;
+  font-size: 32px;
+}
+
+.mini-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  margin: 0 20px;
+  padding: 0 10px;
+  height: 200px;
+  width: 200px;
+  text-decoration: none;
+  color: whitesmoke;
+  transition: all 200ms;
+}
+
+.mini-card h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.mini-card:hover {
+  background-color: whitesmoke;
+  color: #26497F;
+  transform: scale(1.1);
+}
